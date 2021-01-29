@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;1,400&family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+/* navbar styling */
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 30px 0px;
+    z-index: 999;
+    background-color: #660099;
+    font-family: 'Poppins' sans-serif;
+    transition: all 0.3s ease;
+}
+
+.navbar.sticky{
+    padding: 15px 0px;
+    /* background-color: crimson; */
+}
+
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a{
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+
+.navbar .menu li a:hover{
+    color: greenyellow;
+}
+
+.navbar.sticky .menu li a:hover{
+    color: #ffffff;
+}
+
+
+/* home section */
+
+.home{
+    display: flex;
+    background-image: url(../image/wallmaria.jpg);
+    background-size : cover;
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+    min-height: 500px;
+}
+
+
+.home .max-width{
+    margin: auto 0 auto 50px;
+}
+
+.home .max-width-img{
+    margin-left: 200px;
+}
+
+
+.home .home-content .text-1{
+    font-size: 27px;
+}
+
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+}
+
+.home .home-content .text-3 span{
+    color: #FFFF00;
+    font-weight: 500;
+}
+
+.home .home-content a{
+    display: inline-block;
+    background: #660099;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 2px solid #660099;
+    transition: all 0.3s ease;
+}
+
+.home .home-content a:hover{
+    color: #fff;
+    background: none;
+}
+
+.home .intro-content {
+    height: 440px;
+    width: 428px;
+    margin-top: 200px;
+    margin-right: 20px;
+    border-radius: 80px;
+    background-color:  #660099;
+}
+
+.home .intro-content img{
+    height: 400px;
+    width: 400px;
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-radius: 80px;
+}
+
+
+
+
+
+
+
+/* about section styling */
+
+.about{
+    font-family: 'Poppins', sans-serif;
+}
+
+.about .max-width{
+    margin: 120px 0 auto 40px;
+}
+
+.about .title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: #660066;
+}
+
+.about .text{
+    font-size: 25px;
+}
+
+.about .roles{
+    font-size: 20px;
+}
+
+.about .roles_desc{
+    margin-left: 70px;
+    line-height: 2;
+}
+
+
+/* skills section styling */
+
+.skills{
+    font-family: 'Poppins', sans-serif;
+}
+
+.skills .max-width{
+    margin: 10px 0 auto 40px;
+}
+
+.skills .title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: #660066;
+}
+
+.skills .skills-content .bars{
+    margin-bottom: 15px;
+}
+
+.skills .skills-content .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills .skills-content span{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.skills .skills-content .line{
+    height: 5px;
+    width: 100%;
+    background: lightgrey;
+    position: relative;
+}
+
+.skills .skills-content .line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: crimson;
+}
+
+.skills-content  .c::before{
+    width: 75%;
+}
+
+.skills-content  .java::before{
+    width: 70%;
+}
+
+.skills-content  .js::before{
+    width: 65%;
+}
+
+.skills-content  .node::before{
+    width: 60%;
+}
+
+.skills-content  .spring::before{
+    width: 75%;
+}
+
+
+.skills-content  .python::before{
+    width: 50%;
+}
+
+
+.project{
+    font-family: 'Poppins', sans-serif;
+}
+
+.project .max-width{
+    margin: 120px 0 auto 40px;
+}
+
+.project .title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: #660066;
+}
+
+.project .text{
+    font-size: 30px;
+}
+
+.project .companyProject{
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.project .companyProject span{
+    font-size: 20px;
+    margin-right: 40px;
+    text-align: right;
+}
+
+.project .info{
+    margin-left: 60px;
+}
+.project .project_desc{
+    margin-left: 70px;
+    line-height: 2;
+}
+
+
+.contact{
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact .max-width{
+    margin: 120px 0 auto 40px;
+}
+
+.contact .title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: #660066;
+}
+
+.contact .contact_desc p{
+    font-size: 20px;
+    text-align:center;
+}
+
+.contact .contact_desc p span{ 
+    font-size: 25px;
+    text-align:center;
+}
+
+
+
