@@ -53,6 +53,7 @@
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
+    
 }
 
 .navbar .menu li a:hover{
@@ -79,10 +80,12 @@
 
 .home .max-width{
     margin: auto 0 auto 50px;
+    border: 2px solid white;
 }
 
 .home .max-width-img{
     margin-left: 200px;
+    border: 2px solid white;
 }
 
 
