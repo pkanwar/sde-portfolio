@@ -80,12 +80,10 @@
 
 .home .max-width{
     margin: auto 0 auto 50px;
-    border: 2px solid white;
 }
 
 .home .max-width-img{
     margin-left: 200px;
-    border: 2px solid white;
 }
 
 
@@ -143,11 +141,6 @@
     margin-left: 15px;
     border-radius: 80px;
 }
-
-
-
-
-
 
 
 /* about section styling */
