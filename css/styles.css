@@ -20,7 +20,7 @@
     width: 100%;
     padding: 30px 0px;
     z-index: 999;
-    background-color: #660099;
+    background-color: #2F4F4F;
     font-family: 'Poppins' sans-serif;
     transition: all 0.3s ease;
 }
@@ -69,7 +69,7 @@
 
 .home{
     display: flex;
-    background-image: url(../image/wallmaria.jpg);
+    background-image: url(../image/aurora.jpg);
     background-size : cover;
     background-attachment: fixed;
     height: 100vh;
@@ -80,19 +80,25 @@
 
 .home .max-width{
     margin: auto 0 auto 50px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: rgba(0, 45, 98, 0.8);
 }
 
 .home .max-width-img{
     margin-left: 200px;
 }
 
+.home .home-content {
+    margin-top: 20px;
+}
 
 .home .home-content .text-1{
     font-size: 27px;
 }
 
 .home .home-content .text-2{
-    font-size: 75px;
+    font-size: 60px;
     font-weight: 600;
     margin-left: -3px;
 }
@@ -109,13 +115,13 @@
 
 .home .home-content a{
     display: inline-block;
-    background: #660099;
+    background: #006A4E;
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     border-radius: 8px;
-    border: 2px solid #660099;
+    border: 5px solid #006A4E;
     transition: all 0.3s ease;
 }
 
@@ -130,7 +136,7 @@
     margin-top: 200px;
     margin-right: 20px;
     border-radius: 80px;
-    background-color:  #660099;
+    background-color:  #006A4E;
 }
 
 .home .intro-content img{
